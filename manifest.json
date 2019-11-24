@@ -7,7 +7,7 @@
         "activeTab"
     ],
     "content_scripts": [{
-        "matches": ["https://twitter.com/home", "https://*.google.com/*"],
+        "matches": ["https://twitter.com/home"],
         "js": ["contentScript.js"],
         "css": ["contentScript.css"]
     }],
